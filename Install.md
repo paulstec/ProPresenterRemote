@@ -22,6 +22,7 @@ Please keep track of these values for your environment because they can be diffe
 | ProPresenter Remote Port | 65324 |  |
 | Companion IP address | 192.168.1.106 | |
 | Companion Port | 8888 | |
+| Location of Powershell script | c:\tbd  | |
 
 ## Install Steps
 
