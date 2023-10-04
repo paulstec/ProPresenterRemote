@@ -1,6 +1,10 @@
 # ProPresenterRemote
 Simple remote to change which slide is displayed in the active ProPresenter presentation.  The remote is a Companion web page.
 
+We use it for simple sequential presentations like a sermon.  (Not for going through songs.)  The ProPresenter operator selects the first slide in the sermon presentation so it displays in the audience screen.  The person presenting the sermon then goes to a website URL on their phone.  They can then select any of the first 12 slides in the presentation to display that slide.
+
+Notice that the simple website remote does not have a function to switch presentations.  This is by design. 
+
 ## Example
 
 This URL on a phone displays the screen below.
@@ -24,6 +28,9 @@ The following are dependencies for this solution:
  - BitFocus Companion running on Windows.  This is a dependency because a PowerShell script contains core logic.
  - BitFocus Companion running the ProPresenter and Generic HTTP modules.
  - ProPresenter  7.x.x with a version that has the new API.  (API 2 ?)
+ - The IP address of the computers running ProPresenter and Companion need to have static IP addresses.
+    - Typically the addresses are reserved in DHCP which always gives them the same IP address.  And the addresses are manually configured on the computers, so the computers no longer use DHCP.  (Outside the scope of this summary.)
+    - The instructions work if Companion and ProPresenter run on the same computer or different computers.
 
 ## Validated Environment
 
