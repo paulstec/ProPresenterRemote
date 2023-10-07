@@ -39,9 +39,9 @@ The folowing details note where the code has been validated:
  - BitFocus Companion 2.4.2 installed on Windows 10.
      - No known reason why this would not also work on Companion 3.x, but not tested.
  - ProPresenter 7.13 running on a MAC.
-     - No known reason why this would not also work with ProPresenter on Windows, but not tested. (Depends on ProPresenter API.)
+     - No known reason why this would not also work with ProPresenter on Windows, but not fully tested. (Depends on ProPresenter API.)
      - Ran on earlier versions of ProPresenter 7.x.  Just don't remember what they are.  (Could have been 7.10.)
 
 ## How to Install
 
-See [Install.md](Install.md)
+See [Install.md](Install.md) or Install.html

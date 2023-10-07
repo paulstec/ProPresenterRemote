@@ -5,12 +5,12 @@ An installer should have this software installed:
  - Renewed Vision ProPresenter 7.x.x
  - Bitfocus Companion 2.4.2
 
- Note: The example install showes Companion and ProPresneter running on different computers so refers to 2 IP addresses.  Expected that this would work if they were installed on the same computer.
+ Note: The example install showes Companion and ProPresenter running on different computers so refers to 2 IP addresses.  Expected that this would work if they were installed on the same computer.
 
-Also that the installer has reviewed:
+Also that the installer has reviewed these sections of Readme.html or Readme.md:
 
-- [Dependencies](README.md#dependencies)
-- [Validated Environment](README.md#validated-environment)
+- Dependencies
+- Validated Environment
 
 ## Customizing for your configuration
 
